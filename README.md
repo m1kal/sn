@@ -14,11 +14,15 @@ The aim of the project was to learn practical uses of Reagent and to understand 
 
 ## Usage
 
-* Create an empty figwheel project `lein new figwheel -- --reagent`.
+* Create an empty figwheel project `lein new figwheel sn -- --reagent`.
 * Copy the contents of `src` to the project root folder
 * Run `lein figwheel` or `lein cljsbuild once`
+* Train the model
+* Restart the game and let computer play
+
 
 ## Missing features
+* Add "game over" popup
 * Nice graphics
 * Sounds
 * More complex state allowing the snake to avoid traps
